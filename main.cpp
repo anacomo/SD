@@ -115,7 +115,6 @@ int main()
         cout << "\n";
         }
 
-    cout << "Hello world!" << endl;
     return 0;
 }
 
@@ -170,27 +169,21 @@ void BubbleSort(vector<long long>& v){
     }while(ok);
 }
 
-void CountSort(vector <long long>& v)
-{
-    int max = *max_element(v.begin(), v.end());
-    int min = *min_element(v.begin(), v.end());
-    int range = max - min + 1;
-
-    vector<int> count(range), output(v.size());
-    for(int i = 0; i < v.size(); i++)
-        count[v[i]-min]++;
-
-    for(int i = 1; i < count.size(); i++)
-           count[i] += count[i-1];
-
-    for(int i = v.size()-1; i >= 0; i--)
-    {
-         output[ count[v[i]-min] -1 ] = v[i];
-              count[v[i]-min]--;
+void CountSort(vector<long long>& v)
+{long long mini = v[0], maxi = 0;
+for(unsigned int i = 0; i < v.size(); i++)
+    {maxi = max(maxi, v[i]);
+    mini = min(mini, v[i]);
     }
-
-    for(int i = 0; i < v.size(); i++)
-            v[i] = output[i];
+long long fr[maxi + 1];
+for(long long i = 0; i <= maxi; i++)
+    fr[i] = 0;
+for(long long i = 0; i <= v.size(); i++)
+    fr[v[i]] ++;
+unsigned int k = 0;
+for(long long i = mini; i <= maxi; i++)
+    for(int j = 1; j <= fr[i]; j++)
+        v[k++] = i;
 }
 
 void MergeSort(vector<long long>& v, int left, int right){
@@ -230,7 +223,7 @@ void RadixSort(vector<long long>& v) {
 		}
 		int poz = 0;
 		for (int i = 0; i < 10; i++) {
-			for (int j = 0; j < l[i].size(); j++)
+			for (unsigned int j = 0; j < l[i].size(); j++)
                 v[poz++] = l[i][j];
 			l[i].clear();
 		}
