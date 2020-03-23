@@ -1,0 +1,219 @@
+TEST NUMBER 1
+Size of array: 50
+Maxim: 100
+STL Sort: 0s
+Bubble Sort: 0s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 2
+Size of array: 50
+Maxim: 246
+STL Sort: 0s
+Bubble Sort: 0s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 3
+Size of array: 50
+Maxim: 981
+STL Sort: 0s
+Bubble Sort: 0s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 4
+Size of array: 50
+Maxim: 4764
+STL Sort: 0s
+Bubble Sort: 0s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 5
+Size of array: 50
+Maxim: 9951
+STL Sort: 0s
+Bubble Sort: 0s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 6
+Size of array: 50
+Maxim: 99117
+STL Sort: 0s
+Bubble Sort: 0s Ok
+Count Sort: 0s Ok
+Radix Sort: 0.01562s Ok
+Merge Sort: 0s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 7
+Size of array: 250
+Maxim: 50
+STL Sort: 0s
+Bubble Sort: 0s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 8
+Size of array: 250
+Maxim: 250
+STL Sort: 0s
+Bubble Sort: 0.015622s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 9
+Size of array: 250
+Maxim: 997
+STL Sort: 0s
+Bubble Sort: 0s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 10
+Size of array: 250
+Maxim: 4964
+STL Sort: 0s
+Bubble Sort: 0.01562s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 11
+Size of array: 250
+Maxim: 9951
+STL Sort: 0s
+Bubble Sort: 0s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 12
+Size of array: 250
+Maxim: 99464
+STL Sort: 0s
+Bubble Sort: 0s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 13
+Size of array: 1000
+Maxim: 50
+STL Sort: 0s
+Bubble Sort: 0.015619s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 14
+Size of array: 1000
+Maxim: 250
+STL Sort: 0s
+Bubble Sort: 0.015619s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 15
+Size of array: 1000
+Maxim: 1000
+STL Sort: 0s
+Bubble Sort: 0.015625s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 16
+Size of array: 1000
+Maxim: 4994
+STL Sort: 0s
+Bubble Sort: 0.015619s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 17
+Size of array: 1000
+Maxim: 9994
+STL Sort: 0s
+Bubble Sort: 0.015622s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 18
+Size of array: 1000
+Maxim: 99925
+STL Sort: 0s
+Bubble Sort: 0.015623s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 19
+Size of array: 5000
+Maxim: 1000
+STL Sort: 0s
+Bubble Sort: 0.390534s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0.031243s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 20
+Size of array: 5000
+Maxim: 9998
+STL Sort: 0s
+Bubble Sort: 0.421775s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0.031243s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 21
+Size of array: 5000
+Maxim: 99959
+STL Sort: 0s
+Bubble Sort: 0.421767s Ok
+Count Sort: 0s Ok
+Radix Sort: 0.015621s Ok
+Merge Sort: 0.031244s Ok
+Quick Sort: 0s Ok
+
+TEST NUMBER 22
+Size of array: 10000
+Maxim: 1000
+STL Sort: 0s
+Bubble Sort: 1.60996s Ok
+Count Sort: 0s Ok
+Radix Sort: 0s Ok
+Merge Sort: 0.062486s Ok
+Quick Sort: 0.015622s Ok
