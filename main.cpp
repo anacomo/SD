@@ -39,6 +39,15 @@ int main()
             temp.push_back(x);
             sortat.push_back(x);
             }
+	//aproximez maximul
+	long long p = 10;
+        for(int d = 1; d < NrDigits(maxim) - 1; d++)
+            {if(maxim % p != 0 || maxim %(5*p) !=0 )
+                maxim = maxim + (p - maxim % p);
+            p *= 10;
+            }
+        if(maxim < 100)
+            maxim = maxim + (10 - maxim %10);
         cout << "Size of array: " << n << '\n';
         cout << "Maxim: " << maxim << '\n';
         //Sort
