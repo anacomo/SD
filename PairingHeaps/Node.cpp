@@ -32,24 +32,6 @@ void Node::addChild(Node* child)
     
 }
 
-Node* Node::mergeNodes(Node* firstNode, Node* secondNode) 
-{
-    if(firstNode == nullptr)
-        return secondNode;
-    if(secondNode == nullptr)
-        return firstNode;
-    if(firstNode->key < secondNode->key)
-    {
-        firstNode->addChild(secondNode);
-        return secondNode;
-    }
-    else 
-    {
-        secondNode->addChild(firstNode);
-        return firstNode;
-    }
-    return nullptr;
-}
 
 // const functions
 bool Node::isEmpty(Node* root) const

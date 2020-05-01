@@ -18,7 +18,6 @@ public:
     ~Node();
     // methods
     void addChild(Node* child);
-    Node* mergeNodes(Node* firstNode, Node* secondNode);
     // const functions
     bool isEmpty(Node* root) const;
     // friends that will be there for you

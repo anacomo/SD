@@ -37,6 +37,7 @@ public:
     friend class Node;
     // ! mandatory merge function
     PairingHeap& mergeHeaps (PairingHeap& first, PairingHeap& second);
+    Node* mergeNodes(Node* firstNode, Node* secondNode);
 };
 
 

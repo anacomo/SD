@@ -10,6 +10,7 @@ PairingHeap::PairingHeap() :
 PairingHeap::PairingHeap(int key) 
 {
     this->root = new Node(key);
+    Node::nrNodes++;
 }
 
 PairingHeap::~PairingHeap()
@@ -35,6 +36,7 @@ void PairingHeap::insert(int key)
 {
     PairingHeap* makeHeap = new PairingHeap(key);
     *this = mergeHeaps(*this, *makeHeap);
+    Node::nrNodes++;
 }
 // ! mandatory delete min function
 void PairingHeap::deleteMin() 
@@ -45,7 +47,7 @@ void PairingHeap::deleteMin()
     else
         mergePairs(root->leftChild);
     delete oldRoot;
-    
+    Node::nrNodes--;
 }
 
 Node* PairingHeap::mergePairs(Node* firstSibling) 
@@ -84,6 +86,12 @@ void PairingHeap::reclaimMemory(Node * node)
     delete node;
 }
 
+
+int PairingHeap::getMin() const
+{
+    return root->key;
+}
+
 int PairingHeap::getSize() const
 {
     return Node::nrNodes;
@@ -102,4 +110,23 @@ PairingHeap& PairingHeap::mergeHeaps(PairingHeap& first, PairingHeap& second)
         }
     second.root->addChild(first.root);
     return second;
+}
+
+Node* PairingHeap::mergeNodes(Node* firstNode, Node* secondNode) 
+{
+    if(firstNode == nullptr)
+        return secondNode;
+    if(secondNode == nullptr)
+        return firstNode;
+    if(firstNode->key < secondNode->key)
+    {
+        firstNode->addChild(secondNode);
+        return secondNode;
+    }
+    else 
+    {
+        secondNode->addChild(firstNode);
+        return firstNode;
+    }
+    return nullptr;
 }
