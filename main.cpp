@@ -187,7 +187,7 @@ for(unsigned int i = 0; i < v.size(); i++)
 long long fr[maxi + 1];
 for(long long i = 0; i <= maxi; i++)
     fr[i] = 0;
-for(long long i = 0; i <= v.size(); i++)
+for(long long i = 0; i < v.size(); i++)
     fr[v[i]] ++;
 unsigned int k = 0;
 for(long long i = mini; i <= maxi; i++)
